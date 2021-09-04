@@ -272,7 +272,7 @@
           "show_headings_on_mobile": true,
           "product": "cob-smd2835-led-headlamp-built-in-battery-rechargeable-headlight-head-waterproof-lamp-white-red-lighting-for-camping-working",
           "show_vendor": true,
-          "show_description": true,
+          "show_description": false,
           "description_below_add_to_cart": true,
           "show_color_swatch": true,
           "show_color_carousel": false,
