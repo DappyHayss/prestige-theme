@@ -263,8 +263,8 @@
   },
   "cart": {
     "general": {
-      "title": "Cart",
-      "empty": "Your cart is empty",
+      "title": "Köpvagn",
+      "empty": "Din köpvagn är tom!",
       "empty_button": "Shop our products",
       "add_note": "",
       "edit_note": "Edit Order Note",
