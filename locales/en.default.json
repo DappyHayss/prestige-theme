@@ -50,7 +50,7 @@
     "newsletter": {
       "success": "You have been subscribed to our newsletter.",
       "input": "Skriv In Din Email Address",
-      "submit": "Pre"
+      "submit": "Prenumerera"
     }
   },
   "search": {
@@ -269,7 +269,7 @@
       "add_note": "Add Order Note",
       "edit_note": "Edit Order Note",
       "save_note": "Save",
-      "note_placeholder": "How can we help you?",
+      "note_placeholder": "Hur kan vi hjälpa dig?",
       "free_shipping": "You are eligible to free shipping!",
       "free_shipping_remaining_html": "Spend {{remaining_amount}} and get free shipping!",
       "shipping_and_taxes_notice": "Shipping & taxes calculated at checkout",
