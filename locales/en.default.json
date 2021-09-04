@@ -282,7 +282,7 @@
       "quantity": "Quantity",
       "total": "Total",
       "set_quantity": "Set quantity to {{new_quantity}}",
-      "remove": "Remove"
+      "remove": "Ta Bort"
     },
     "shipping_estimator": {
       "title": "Estimate shipping",
