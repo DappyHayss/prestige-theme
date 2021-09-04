@@ -325,7 +325,7 @@
         "one": "{{count}} color",
         "other": "{{count}} colors"
       },
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Lägg Till I Köpvagnen",
       "sold_out": "Sold Out",
       "pre_order": "Pre-order",
       "unavailable": "Unavailable",
