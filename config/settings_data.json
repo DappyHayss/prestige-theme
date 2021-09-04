@@ -6,7 +6,7 @@
     "link_color": "#6a6a6a",
     "background": "#f2f7e8",
     "light_background": "#ffffff",
-    "product_on_sale_color": "#ffffff",
+    "product_on_sale_color": "#000000",
     "button_background": "#1c1b1b",
     "button_text_color": "#ffffff",
     "header_background": "#dcdcca",
