@@ -99,7 +99,9 @@
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
     {% include 'microdata-schema' %}
-  </head>
+  
+	{{ shop.metafields.loox["global_html_head"] }}
+</head>
 
   <body class="prestige--v1 {% if template.directory %}template-{{ template.directory | handle }}{% endif %} template-{{ template.name | handle }}">
     <a class="PageSkipLink u-visually-hidden" href="#main">{{ 'header.navigation.skip_to_content' | t }}</a>
@@ -150,5 +152,7 @@
         {%- endif -%}
       </div>
     </div>
-  </body>
+  
+	{{ shop.metafields.loox["global_html_body"] }}
+</body>
 </html>
