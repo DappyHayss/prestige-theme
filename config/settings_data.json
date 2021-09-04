@@ -112,8 +112,8 @@
           "footer-0": {
             "type": "text",
             "settings": {
-              "title": "About the shop",
-              "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+              "title": "Kundservice",
+              "content": "<p>Vårt mål är att ge varje kund den bästa möjliga upplevelsen med vårt varumärke. Om du någonsin har några frågor tveka inte att höra av dig till vår kundsupport nedan:<br\/><\/p>",
               "show_social_media": true
             }
           },
@@ -126,8 +126,8 @@
           "footer-2": {
             "type": "newsletter",
             "settings": {
-              "title": "Newsletter",
-              "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              "title": "BLI MEDLEM!",
+              "content": "<p>Få tillgång till våra nyaste produkter i vårt sortiment samt rabattkoder och bonusar!<\/p>"
             }
           }
         },
