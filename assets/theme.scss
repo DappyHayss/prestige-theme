@@ -6,26 +6,26 @@
 
 /* Colors */
 
-$background      : #ffffff;
+$background      : #f2f7e8;
 $light-background: #ffffff;
 $heading-color   : #1c1b1b;
 $text-color      : #1c1b1b;
 $text-color-light: #6a6a6a;
 $link-color      : #6a6a6a;
-$border-color    : #dddddd;
+$border-color    : #d2d6c9;
 
 $button-background: #1c1b1b;
 $button-text-color: #ffffff;
 
-$header-background       : #ffffff;
+$header-background       : #dcdcca;
 $header-heading-color    : #1c1b1b;
 $header-light-text-color : #6a6a6a;
-$header-border-color     : #dddddd;
+$header-border-color     : #bfbfb0;
 
-$footer-background    : #ffffff;
-$footer-text-color    : #6a6a6a;
-$footer-heading-color : #1c1b1b;
-$footer-border-color  : #e9e9e9;
+$footer-background    : #616161;
+$footer-text-color    : #ffffff;
+$footer-heading-color : #2b2b2b;
+$footer-border-color  : #797979;
 
 $navigation-background      : #1c1b1b;
 $navigation-text-color      : #ffffff;
@@ -40,7 +40,7 @@ $secondary-elements-text-color       : #ffffff;
 $secondary-elements-text-color-light : rgba($secondary-elements-text-color, 0.5);
 $secondary-elements-border-color     : rgba($secondary-elements-text-color, 0.25);
 
-$product-sale-price-color: #f94c43;
+$product-sale-price-color: #ffffff;
 
 /* Typography */
 
@@ -53,36 +53,22 @@ $product-sale-price-color: #f94c43;
 }
 
 @font-face {
-  font-family: "Nunito Sans";
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_n4.2b61d9dcf54d8ac8282cfd1ebb6964c79a7efcd1.woff2?&hmac=8cc42143eae778b5a4489df2cc2cac3253120cc1e3acdd0342ed736216541bf9") format("woff2"),
-       url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_n4.420cbf408f643f8ff8fd948b99c10dade8b6af79.woff?&hmac=0a96c8ac3d522763f19edefabd69663b968f08a29ebaeb7407601cc91a24defc") format("woff");
-}
-
-@font-face {
-  font-family: "Nunito Sans";
-  font-weight: 700;
-  font-style: normal;
-  src: url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_n7.5bd4fb9346d13afb61b3d78f8a1e9f31b128b3d9.woff2?&hmac=a80925e46dab83118087258f70361e59a7ead90cc8d247079c9f1894f9139704") format("woff2"),
-       url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_n7.2bcf0f11aa6af91c784a857ef004bcca8c2d324d.woff?&hmac=19e78cd6194bda2d82da36db1c30d78a4999f9945a4f1e70ce478106915512bb") format("woff");
-}
-
-@font-face {
-  font-family: "Nunito Sans";
-  font-weight: 400;
-  font-style: italic;
-  src: url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_i4.e88a2041a6cfbeacffb96db0e8efdfaaa38ddc5c.woff2?&hmac=552da398f9cf9351b323856ad2adeebabcff36bb13e25739abd3442d7eba95d4") format("woff2"),
-       url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_i4.2c3733ccdf579e6e89e929a950e6a93484fdf6b4.woff?&hmac=eb5067d9ace3ed9bafc42d21f2a7fdea7b071445b49065533702d8af29bcbfc6") format("woff");
-}
-
-@font-face {
-  font-family: "Nunito Sans";
+  font-family: Arimo;
   font-weight: 700;
   font-style: italic;
-  src: url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_i7.975ea93f521412ef99ca1e2e434d8ca6a5cf77e7.woff2?&hmac=b3b0b3630d1452928c31a0873830418462a86ab2113a4fe49dfb2299fcfd7d86") format("woff2"),
-       url("https://fonts.shopifycdn.com/nunito_sans/nunitosans_i7.83b70272d04b71e88f25fc6834dc9b88e4ba4e95.woff?&hmac=fc183d54dd6522b1546f8886edb89b59dca99697ab3a52106fd21557832de67a") format("woff");
+  src: url("https://fonts.shopifycdn.com/arimo/arimo_i7.f62cd88331ad0c31a41f31618f8ff95cca052800.woff2?&hmac=d4ebf578a9273a65cd07b11a2bebcd93487191b4779f72f35baa9cdf98f7bac9") format("woff2"),
+       url("https://fonts.shopifycdn.com/arimo/arimo_i7.6ead2569d278254c7a14fcf41f3024dc621fc58a.woff?&hmac=0d30c2798f74c9426c28e7464cc4667f40bfb81f785348d62d4d2662c87f1c52") format("woff");
 }
+
+
+@font-face {
+  font-family: Arimo;
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://fonts.shopifycdn.com/arimo/arimo_i7.f62cd88331ad0c31a41f31618f8ff95cca052800.woff2?&hmac=d4ebf578a9273a65cd07b11a2bebcd93487191b4779f72f35baa9cdf98f7bac9") format("woff2"),
+       url("https://fonts.shopifycdn.com/arimo/arimo_i7.6ead2569d278254c7a14fcf41f3024dc621fc58a.woff?&hmac=0d30c2798f74c9426c28e7464cc4667f40bfb81f785348d62d4d2662c87f1c52") format("woff");
+}
+
 
 
 $heading-font-family : Montserrat, sans-serif;
@@ -90,13 +76,13 @@ $heading-font-weight : 500;
 $heading-font-style  : normal;
 $heading-font-size   : small;
 
-$text-font-family : "Nunito Sans", sans-serif;
-$text-font-weight : 400;
-$text-font-style  : normal;
+$text-font-family : Arimo, sans-serif;
+$text-font-weight : 700;
+$text-font-style  : italic;
 
 $uppercase-heading: true;
 
-$base-text-font-size   : 14px;
+$base-text-font-size   : 15px;
 $default-text-font-size: 14px;
 
 /* Products */
