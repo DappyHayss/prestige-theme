@@ -269,13 +269,13 @@
           "subheading": "",
           "title": "Featured product",
           "show_headings_on_mobile": false,
-          "product": "cob-smd2835-led-headlamp-built-in-battery-rechargeable-headlight-head-waterproof-lamp-white-red-lighting-for-camping-working",
+          "product": "universal-gyro-training-bowl-practical-design-children-rotary-balance-novelty-360-degrees-rotate-spill-proof-baby-feeding-dishes",
           "show_vendor": true,
-          "show_description": false,
+          "show_description": true,
           "description_below_add_to_cart": true,
           "show_color_swatch": true,
           "show_color_carousel": false,
-          "show_quantity_selector": true,
+          "show_quantity_selector": false,
           "show_inventory_quantity": false,
           "inventory_quantity_threshold": 0,
           "show_payment_button": false
@@ -424,7 +424,6 @@
         "type": "collection-footer",
         "settings": {
           "show_section": false,
-          "image": "",
           "text_color": "#ffffff",
           "apply_overlay": true,
           "title": "Our story",
@@ -441,8 +440,8 @@
           "show_color_carousel": false,
           "show_quantity_selector": true,
           "show_inventory_quantity": false,
-          "inventory_quantity_threshold": 3,
-          "show_payment_button": false,
+          "inventory_quantity_threshold": 7,
+          "show_payment_button": true,
           "image_size": "small",
           "enable_image_zoom": true,
           "show_thumbnails": true,
@@ -473,9 +472,54 @@
           "show_newsletter": true,
           "apparition_delay": 5
         }
+      },
+      "1652043464f54781d0": {
+        "type": "slideshow",
+        "blocks": {
+          "1652043464f54781d0-0": {
+            "type": "image",
+            "settings": {
+              "mobile_image": "shopify:\/\/shop_images\/baby-and-a-person-lay-close-on-a-white-couch.jpg",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Slide title",
+              "title": "Tell your story",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "1652043464f54781d0-1": {
+            "type": "image",
+            "settings": {
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "Slide title",
+              "title": "Tell your story",
+              "button_1_text": "",
+              "button_1_link": "",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1652043464f54781d0-0",
+          "1652043464f54781d0-1"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": true,
+          "cycle_speed": 5,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
       }
     },
     "content_for_index": [
+      "1652043464f54781d0",
       "featured-product"
     ]
   },
